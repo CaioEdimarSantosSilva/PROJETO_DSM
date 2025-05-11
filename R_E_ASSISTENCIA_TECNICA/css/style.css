@@ -1,3 +1,4 @@
+
 body {
     box-sizing: border-box;
     padding: 0;
@@ -20,11 +21,11 @@ body {
     align-items: center;
 }
 .cabecalho > section > nav > a {
+    text-decoration: none;
+    color: white;
     font-family: "Tomorrow";
     font-weight: 200;
     font-size: 1.3em;
-    text-decoration: none;
-    color: white;
 }
 .cabecalho > section > nav > .ativo {
     text-decoration: overline;
@@ -36,7 +37,23 @@ body {
 }
 .principal {
     background: linear-gradient(to top right, rgb(190, 190, 190), rgb(220, 220, 220));
+    font-family: "Tomorrow";
+    font-weight: 200;
+    font-size: 1.3em;
 }
 .rodape {
     background: linear-gradient(to top right, rgb(33, 33, 33), rgb(45, 45, 45));
+    font-family: "Noto_Sans";
+    font-weight: 300;
+    font-size: 1em;
+}
+.rodape > .principal_footer{
+    width: 80%;
+    text-align: center;
+    color: white;
+    
+}
+.rodape > section > .direitos_autorais {
+    color: rgba(255, 255, 255, 0.5);
+    
 }

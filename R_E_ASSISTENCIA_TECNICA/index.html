@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="shortcut icon" href="assets/icons/logo.ico" type="image/x-icon">
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <title>R.E Assistência técnica | Home</title>
@@ -19,25 +20,59 @@
             </a>
             <nav class="nav w-100">
                 <a class="ativo flex-sm-fill text-sm-center" href="index.html">Home</a>
-                <a class="flex-sm-fill text-sm-center" href="pages/servicos.html">Serviços</a>
+                <a class="flex-sm-fill text-sm-center" role="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">Serviços</a>
                 <a class="flex-sm-fill text-sm-center" href="pages/vendas.html">Vendas</a>
                 <a class="flex-sm-fill text-sm-center" href="pages/contato.html">Contato</a>
                 <a class="flex-sm-fill text-sm-center" href="pages/sobre.html">Sobre</a>
             </nav>
         </section>
+        <!-- MENU LATERAL SERVICOS -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"">
+    <div class=" offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Serviços</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li><a href="#">Formatação</a></li>
+                <li><a href="#">Instalação de Sistemas</a></li>
+                <li><a href="#">Limpeza de Hardware</a></li>
+            </ul>
+        </div>
+        </div>
+
     </header>
 
     <main class="principal container-fluid" style="justify-items: center;">
         <section style="height: 900px; width: 80%; text-align: center;">
-           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique sed aspernatur optio facilis exercitationem iure deleniti quia consectetur expedita maxime doloribus id, officia dolores dolorum ab officiis necessitatibus pariatur delectus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sed aspernatur optio facilis
+            exercitationem iure deleniti quia consectetur expedita maxime doloribus id, officia dolores dolorum ab
+            officiis necessitatibus pariatur delectus?
         </section>
     </main>
 
     <footer class="rodape container-fluid" style="justify-items: center;">
-        <section style="height: 400px; width: 80%; text-align: center; color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolor. Tempora repudiandae suscipit esse nulla libero maiores. Ratione sint eos fugit soluta nemo, harum distinctio sunt. Esse explicabo nihil ex!</section>
+        <section class="principal_footer">
+            <section class="divida em 3 partes horizontalmente">
+            </section>
+            <section class="redes sociais e pagamentos divida em 2 partes horizontalmente">
+                <div class="redes sociais">
+                    <a href="https://web.whatsapp.com/">whatsapp
+                        <i class="fab fa-facebook" style="color: red;"></i>
+                    </a>
+                </div>
+                <div class="pagamentos"></div>
+
+            </section>
+            <section class="direitos_autorais">
+                <p>&copy;2025 R.E Assistência técnica | Todos os direitos reservados.</p>
+            </section>
+        </section>
     </footer>
+
     <script src="assets/jquery/jquery.min.js"></script>
-    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
