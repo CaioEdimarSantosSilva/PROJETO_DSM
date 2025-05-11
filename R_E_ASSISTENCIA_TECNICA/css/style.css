@@ -27,38 +27,12 @@ body {
     color: white;
 }
 .cabecalho > section > nav > .ativo {
-    text-decoration: underline overline;
+    text-decoration: overline;
     color: rgb(86, 159, 255);
 }
 .cabecalho > section > nav > a:hover {
     font-weight: 300;
     color: rgb(86, 159, 255);
-    text-decoration: underline;
-}
-.cabecalho > section > form {
-    align-items: center;
-}
-.cabecalho > section > form > input {
-    color: rgb(86, 159, 255);
-    background-color: rgba(0, 0, 0, 0);
-    font-family: "Tomorrow";
-    font-weight: 300;
-}
-.cabecalho > section > form > input:hover {
-    border: 1px solid rgb(86, 159, 255);
-    
-}
-.cabecalho > section > form > input:focus {
-    border: 1px solid rgb(86, 159, 255);
-    outline: none;
-}
-.cabecalho > section > form > button{
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    background-color: rgba(255, 255, 255, 0);
-}
-.cabecalho > section > form > button:hover{
-    border: 1px solid rgb(86, 159, 255);
-    background-color: rgba(0, 0, 0, 0.1);
 }
 .principal {
     background: linear-gradient(to top right, rgb(190, 190, 190), rgb(220, 220, 220));
