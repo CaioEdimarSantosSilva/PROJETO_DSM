@@ -42,6 +42,21 @@ body {
     color: rgb(86, 159, 255);
 }
 
+.menu_lateral{
+    background-color: rgb(180, 180, 180);
+    text-align: center;
+}
+.menu_lateral>.menu_lateral_header{
+    background: linear-gradient(to bottom right,  rgb(45, 45, 45),rgb(33, 33, 33));
+    color: white;
+    padding: 2.55em;
+    text-align: center;
+}
+.menu_lateral>.menu_lateral_body{
+    background-color: rgb(180, 180, 180);
+    text-align: center;
+}
+
 .principal {
     background: linear-gradient(to top right, rgb(190, 190, 190), rgb(220, 220, 220));
     font-family: "Tomorrow";
@@ -54,6 +69,7 @@ body {
     font-family: "Tomorrow";
     font-weight: 200;
     font-size: 1em;
+    justify-items: center;
 }
 
 .rodape>.principal_footer {
@@ -64,23 +80,32 @@ body {
 }
 
 .rodape>.principal_footer>.informacao_footer {
-    width: 80%;
-    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .rodape>.principal_footer>.informacao_footer>div>div>ul>li {
     background-color: transparent;
     color: white;
     margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.rodape>.principal_footer>.informacao_footer>div>.barra_vertical {
+    border-right: 1px solid rgba(255, 255, 255,0.5);
+}
+
+.rodape>.principal_footer>.informacao_footer>div>.barra_vertical_servico {
+    border-right: 1px solid rgba(255, 255, 255,0.5);
+    border-left: 1px solid rgba(255, 255, 255,0.5);
 }
 
 .rodape>.principal_footer>.redes_pagamentos {
-    width: 80%;
     justify-content: center;
     font-size: 1.5em;
+    border-top: 1px solid rgba(255, 255, 255,0.5);
+    border-bottom: 1px solid rgba(255, 255, 255,0.5);
 }
-
-
 
 .rodape>section>.direitos_autorais {
     color: rgba(255, 255, 255, 0.5);
