@@ -51,8 +51,8 @@ body {
 
 .rodape {
     background: linear-gradient(to top right, rgb(33, 33, 33), rgb(45, 45, 45));
-    font-family: "Noto_Sans";
-    font-weight: 300;
+    font-family: "Tomorrow";
+    font-weight: 200;
     font-size: 1em;
 }
 
@@ -68,12 +68,10 @@ body {
     justify-content: center;
 }
 
-.rodape>.principal_footer>.informacao_footer>hr {
-    width: 1px;
-    height: 100px;
-    background-color: white;
-    margin: 0 10px;
-    
+.rodape>.principal_footer>.informacao_footer>div>div>ul>li {
+    background-color: transparent;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .rodape>.principal_footer>.redes_pagamentos {
@@ -86,5 +84,6 @@ body {
 
 .rodape>section>.direitos_autorais {
     color: rgba(255, 255, 255, 0.5);
-
+    font-family: "Noto_Sans";
+    font-weight: 300;
 }
