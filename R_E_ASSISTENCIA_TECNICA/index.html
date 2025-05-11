@@ -28,18 +28,19 @@
             </nav>
         </section>
         <!-- MENU LATERAL SERVICOS -->
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"">
-    <div class=" offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Serviços</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
-        </div>
-        <div class="offcanvas-body">
-            <ul>
-                <li><a href="#">Formatação</a></li>
-                <li><a href="#">Instalação de Sistemas</a></li>
-                <li><a href="#">Limpeza de Hardware</a></li>
-            </ul>
-        </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class=" offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Serviços</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a href="#">Formatação</a></li>
+                    <li><a href="#">Instalação de Sistemas</a></li>
+                    <li><a href="#">Limpeza de Hardware</a></li>
+                </ul>
+            </div>
         </div>
 
     </header>
@@ -54,17 +55,49 @@
 
     <footer class="rodape container-fluid" style="justify-items: center;">
         <section class="principal_footer">
-            <section class="divida em 3 partes horizontalmente">
+            <section class="informacao_footer d-flex">
+                <a href="index.html">
+                    <img src="assets/imagens/logo_nome/logo_nomeM.png" alt="logo">
+                </a>
+                <hr>
+                <div>
+                    <p>Serviços</p>
+                </div>
+                <hr>
+                <div>
+                    <p>Saiba Mais</p>
+                </div>
+                <hr>
+                <div>
+                    <p>Atendimento</p>
+                </div>
             </section>
-            <section class="redes sociais e pagamentos divida em 2 partes horizontalmente">
-                <div class="redes sociais">
-                    <a href="https://web.whatsapp.com/">whatsapp
-                        <i class="fab fa-facebook" style="color: red;"></i>
+            <hr>
+            <section class="redes_pagamentos container-fluid d-flex justify-content-around">
+                <div class="redes d-flex">
+                    <p class="me-2">Redes Sociais:</p>
+                    <a class="me-3" href="https://www.instagram.com/" target="_blank"
+                        style="background: linear-gradient(45deg, #ff00bf, #FF421F); -webkit-background-clip: text;-webkit-text-fill-color: transparent;">Instagram
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="me-3" href="https://web.whatsapp.com/" target="_blank"
+                        style="background: linear-gradient(45deg, lightgreen, green); -webkit-background-clip: text;-webkit-text-fill-color: transparent;">WhatsApp
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://facebook.com/" target="_blank"
+                        style="background: linear-gradient(45deg, rgb(0, 140, 255), rgb(0, 0, 255)); -webkit-background-clip: text;-webkit-text-fill-color: transparent;">Facebook
+                        <i class="fab fa-facebook"></i>
                     </a>
                 </div>
-                <div class="pagamentos"></div>
-
+                <div class="pagamentos d-flex">
+                    <p class="me-2">Formas de Pagamento:</p>
+                    <i class="fab fa-cc-visa mt-1 ms-2 me-2"></i>
+                    <i class="fab fa-cc-mastercard mt-1 me-2"></i>
+                    <i class="fab fa-pix mt-1 me-2"></i>
+                    <i class="fa-solid fa-barcode mt-1 me-2"></i>
+                </div>
             </section>
+            <hr>
             <section class="direitos_autorais">
                 <p>&copy;2025 R.E Assistência técnica | Todos os direitos reservados.</p>
             </section>

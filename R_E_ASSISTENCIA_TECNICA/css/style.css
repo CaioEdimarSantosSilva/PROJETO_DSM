@@ -1,59 +1,90 @@
-
 body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     height: 100vh;
 }
+
 .cabecalho {
     background: linear-gradient(to bottom right, rgb(33, 33, 33), rgb(45, 45, 45));
     position: sticky;
     top: 0;
 }
-.cabecalho > section {
+
+.cabecalho>section {
     width: 80%;
 }
-.cabecalho > section > a > img {
+
+.cabecalho>section>a>img {
     height: 5em;
     margin-right: 3%;
 }
-.cabecalho > section > nav {
+
+.cabecalho>section>nav {
     align-items: center;
 }
-.cabecalho > section > nav > a {
+
+.cabecalho>section>nav>a {
     text-decoration: none;
     color: white;
     font-family: "Tomorrow";
     font-weight: 200;
     font-size: 1.3em;
 }
-.cabecalho > section > nav > .ativo {
+
+.cabecalho>section>nav>.ativo {
     text-decoration: overline;
     color: rgb(86, 159, 255);
 }
-.cabecalho > section > nav > a:hover {
+
+.cabecalho>section>nav>a:hover {
     font-weight: 300;
     color: rgb(86, 159, 255);
 }
+
 .principal {
     background: linear-gradient(to top right, rgb(190, 190, 190), rgb(220, 220, 220));
     font-family: "Tomorrow";
     font-weight: 200;
     font-size: 1.3em;
 }
+
 .rodape {
     background: linear-gradient(to top right, rgb(33, 33, 33), rgb(45, 45, 45));
     font-family: "Noto_Sans";
     font-weight: 300;
     font-size: 1em;
 }
-.rodape > .principal_footer{
+
+.rodape>.principal_footer {
     width: 80%;
     text-align: center;
     color: white;
+
+}
+
+.rodape>.principal_footer>.informacao_footer {
+    width: 80%;
+    justify-content: center;
+}
+
+.rodape>.principal_footer>.informacao_footer>hr {
+    width: 1px;
+    height: 100px;
+    background-color: white;
+    margin: 0 10px;
     
 }
-.rodape > section > .direitos_autorais {
+
+.rodape>.principal_footer>.redes_pagamentos {
+    width: 80%;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+
+
+.rodape>section>.direitos_autorais {
     color: rgba(255, 255, 255, 0.5);
-    
+
 }
