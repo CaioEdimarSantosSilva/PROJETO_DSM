@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+.cabecalho {
+    background: linear-gradient(to bottom right, rgb(33, 33, 33), rgb(45, 45, 45));
+    position: sticky;
+    top: 0;
+}
+.cabecalho > a > img {
+    height: 5em;
+    margin-right: 3%;
+}
+.cabecalho > nav {
+    align-items: center;
+}
+.cabecalho > nav > a {
+    font-family: "Tomorrow";
+    font-weight: 200;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+}
+.cabecalho > nav > .ativo {
+    text-decoration: underline overline;
+    color: rgb(86, 159, 255);
+}
+.cabecalho > nav > a:hover {
+    font-weight: 300;
+    color: rgb(86, 159, 255);
+    text-decoration: underline;
+}
+.cabecalho > form {
+    align-items: center;
+}
+.cabecalho > form > input {
+    color: rgb(86, 159, 255);
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Tomorrow";
+    font-weight: 300;
+}
+.cabecalho > form > input:hover {
+    border: 1px solid rgb(86, 159, 255);
+    
+}
+.cabecalho > form > input:focus {
+    border: 1px solid rgb(86, 159, 255);
+    outline: none;
+}
+.cabecalho > form > button{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0);
+}
+.cabecalho > form > button:hover{
+    border: 1px solid rgb(86, 159, 255);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.principal {
+    background: linear-gradient(to top right, rgb(190, 190, 190), rgb(220, 220, 220));
+}
+.rodape {
+    background: linear-gradient(to top right, rgb(33, 33, 33), rgb(45, 45, 45));
+}
